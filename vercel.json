@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "sh ./setup-xash.sh && npm run build",
+  "outputDirectory": "dist"
+}
