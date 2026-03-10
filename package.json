@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "homepage": "https://x8bitrain.github.io/webXash",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    "deploy": "bun run build && touch 'dist/.nojekyll' && gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "prebuild": "sh ./setup-xash.sh",
+  "build": "vue-tsc -b && vite build",
+  "preview": "vite preview",
+  "deploy": "bun run build && touch 'dist/.nojekyll'"
+},
   "dependencies": {
     "idb-keyval": "6.2.2",
     "cs16-client": "0.1.2",
