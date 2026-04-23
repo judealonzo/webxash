@@ -20,7 +20,7 @@
     "pinia": "3.0.3",
     "pinia-plugin-persistedstate": "^4.4.1",
     "vue": "3.5.13",
-    "xash3d-fwgs": "1.2.2"
+    "xash3d-fwgs": "file:vendor/xash3d-fwgs-custom.tgz"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.2.3",
