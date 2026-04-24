@@ -22,23 +22,23 @@
     "vue": "3.5.13",
     "xash3d-fwgs": "file:vendor/xash3d-fwgs-custom.tgz"
   },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "5.2.3",
-    "@vue/tsconfig": "0.7.0",
-    "typescript": "5.7.3",
-    "vite": "latest",
-    "vue-tsc": "2.2.8",
-    "sass-embedded": "1.81.0",
-    "@eslint/js": "9.20.0",
-    "@rushstack/eslint-patch": "1.10.5",
-    "@vue/eslint-config-prettier": "10.2.0",
-    "@vue/eslint-config-typescript": "14.4.0",
-    "eslint": "9.20.1",
-    "eslint-config-prettier": "10.0.1",
-    "eslint-plugin-vue": "9.32.0",
-    "typescript-eslint": "8.24.1",
-    "vue-eslint-parser": "9.4.3",
-    "prettier": "3.5.1",
-    "@types/node": "22.15.30"
-  }
+"devDependencies": {
+  "@vitejs/plugin-vue": "5.2.3",
+  "@vue/tsconfig": "0.7.0",
+  "typescript": "5.7.3",
+  "vite": "6.3.5",
+  "esbuild": "0.25.11",
+  "vue-tsc": "2.2.8",
+  "sass-embedded": "1.81.0",
+  "@eslint/js": "9.20.0",
+  "@rushstack/eslint-patch": "1.10.5",
+  "@vue/eslint-config-prettier": "10.2.0",
+  "@vue/eslint-config-typescript": "14.4.0",
+  "eslint": "9.20.1",
+  "eslint-config-prettier": "10.0.1",
+  "eslint-plugin-vue": "9.32.0",
+  "typescript-eslint": "8.24.1",
+  "vue-eslint-parser": "9.4.3",
+  "prettier": "3.5.1",
+  "@types/node": "22.15.30"
 }
